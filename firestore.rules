@@ -1,0 +1,20 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // User devices and FCM tokens collection
+    match /users/{userId} {
+      // Allows reading registered devices for the receiver dropdown in Send Notification page
+      allow read: if true;
+      
+      // Allows any mobile device to register and update its device token and display name
+      allow write: if true;
+    }
+    
+    // Default fallback: deny all other collections
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

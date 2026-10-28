@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "231878353458",
+    "project_id": "notification-225b1",
+    "storage_bucket": "notification-225b1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231878353458:android:a7bd8093ad891777e3d22b",
+        "android_client_info": {
+          "package_name": "com.example.smartnotification.smart_notification"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACwJkTwMUG1IUeV18ZBpDZiLzedd3eaq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+name: notification_app
+description: "A complete Flutter Android Push Notification project using FCM and Firestore."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Firebase Core Engine
+  firebase_core: ^3.15.2
+
+  # Firebase Cloud Messaging for Push Notifications
+  firebase_messaging: ^15.2.10
+
+  # Cloud Firestore for saving device tokens
+  cloud_firestore: ^5.6.12
+
+  # Flutter Local Notifications for heads-up foreground alert popups
+  flutter_local_notifications: ^22.3.2
+
+  # HTTP Client for calling Cloud Function backend securely
+  http: ^1.2.2
+
+  # Local persistence for user profile (userId and name)
+  shared_preferences: ^2.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
